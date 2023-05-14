@@ -6,6 +6,10 @@ module.exports = {
       classRegex: '^(active)?[cC]lass(Name)?$',
     },
   },
+  parserOptions: {
+    sourceType: 'module',
+    ecmaVersion: 2022,
+  },
   overrides: [
     {
       // Define the configuration for `.astro` file.
